@@ -25,14 +25,14 @@ def main():
     print()
     my_animal("mouse","ekekekekek",0.2)
 
-#call the  value return function
-myName=getName()
-print(myName)
-print()
-print(displayName(myName))
+    #call the  value return function
+    myName=getName()
+    print(myName)
+    print()
+    print(displayName(myName))
 
 # call the main function
-if __name__=="__name__":
+if __name__=="__main__":
     main()
 
 
